@@ -3,3 +3,11 @@ https://www.w3schools.com/cssref/css3_pr_transform.php : allowed me to rotate th
 https://alvarotrigo.com/blog/html-css-timelines/ : allowed me to make the timeline, took code directly from the site
 
 https://www.w3schools.com/cssref/pr_class_display.php : helped me understand how to use the display: flex;
+
+
+IMAGES:
+https://www.amazon.com/Greatest-Hits-Vol-1-Singles/dp/B000SUKPKM : The Goo Goo Dolls
+https://upload.wikimedia.org/wikipedia/en/d/d4/OasisDefinitelyMaybealbumcover.jpg : Oasis 
+https://i.scdn.co/image/ab67616d0000b2736ee35072df1af802cca09918 : Noah Kahan
+https://i.scdn.co/image/ab67616d00001e024ee3d2ae694b3b78125a5443 : The Kid LAROI
+https://m.media-amazon.com/images/I/71SnnzduqRL._UF1000,1000_QL80_.jpg : The Fray

@@ -1,10 +1,10 @@
 .base_homepage{
-    background-color: rgb(248, 245, 245);
-    color:#fdfdfd;
+    background-color: rgb(255, 255, 255);
+    color:#000000;
     border-radius: 10px;
-    border-color: rgb(62, 5, 167);
+    border-color: rgb(111, 12, 233);
     border-style: solid;
-    border-width: 15%;
+    border-width: 1px;
     font-weight: 600;
     padding: 20px 20px 20px 20px;
     font-size: 25px;
@@ -13,7 +13,7 @@
 
 .image_box{
     border-radius: 2px;
-    border-color: rgb(130, 36, 243);
+    border-color: rgb(111, 12, 233);
     border-style: solid;
     border-width: 2px;
     margin-top: 25px;
@@ -28,7 +28,7 @@
 
 .header_homepage{
     background-color: rgb(194, 196, 197);
-    color: rgb(130, 36, 243);
+    color: rgb(111, 12, 233);
     font-size: 40px;
     font-weight: 600;
     padding: 10px;
@@ -36,18 +36,36 @@
     text-align: center;
 }
 
+.move_left{
+    color: #080000;
+    text-align: left; 
+}
+
+.move_left_columns{
+    display: flex;
+    justify-content: left;  
+    flex-direction: column;
+    font-family: Arial;
+    font-size: .9rem;
+}
+
+.move_left_columns li{
+    padding: 5px;
+}
+
 a:link{
-    color: rgb(8, 122, 180);
+    color: rgb(75, 6, 122);
 }
 a:visited{
-    color: rgb(0, 32, 100);
+    color: rgb(19, 25, 144);
 }
 a:hover { 
-    color: #1414ed; 
+    color: rgb(106,12,12); 
 }
 
 .align_header{
     display: flex;
+    flex-direction: row;
     justify-content:center;
     gap: 100px;
     font-size: 30px;
@@ -57,7 +75,7 @@ a:hover {
     text-align: center;
     gap: 5px;
     margin-top: 25px;
-    background-color: rgb(243, 244, 246);
+    background-color: rgb(255, 255, 255);
     color:#080000;
     font-weight: 600;
     padding: 20px 20px;
@@ -67,186 +85,83 @@ a:hover {
 
 .image-border{
     border-radius: 10px;
-    border-color: rgb(130, 36, 243);
+    border-color: rgb(111, 12, 233);
     border-style: solid;
     border-width: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .image-move{
-    position: left;
     margin-top: 25px;
     margin-bottom: 10px; 
 }
 .image-shape{
     border-radius: 10px;
-    border-color: rgb(130, 36, 243);
+    border-color: rgb(111, 12, 233);
     border-style: solid;
     border-width: 10px;
     margin-left: 15px;
-    
-}
-.image-shape:hover {
-    transform: rotate(10deg);
+    width: 350px;
+    height: 350px;
 }
 
-.image-move2{
-    border-radius: 10px;
-    border-color: rgb(62, 5, 167);
-    border-style: solid;
-    border-width: 10px;
-    margin-right: 20px;   
-    margin-bottom: 10px; 
+.image-shape2{
+    width: 250px;
+    height: 250px;
+}
+
+.image-shape:hover {
+    transform: rotate(10deg);
 }
 
 .writing{
     position: relative;
 }
 
-/*
-CODE FOR THE TIMELINE: THIS CSS CODE WAS COPIED FROM THE WEBSITE PROVIDED TO US 
-*/
 
-.container{
-    margin-top: 35px; 
+/*
+CODE FOR THE BANDS TABLE
+*/
+.band_table{
+    color: #080000;
+    margin-top: 25px;
+    text-align: center;
+}
+.band_table th{
+    border: solid rgb(0, 0, 0);
+    text-align: center;
+}
+.band_table td {
+    border: solid rgb(0, 0, 0);
+    text-align: center;
 }
 
-body{
-    margin-top:100px !important;
-  }
-  .Yearly-timeline{ font-family: 'Poppins', sans-serif; }
-          .Yearly-timeline:after{
-              content: '';
-              display: block;
-              clear: both;
-          }
-          .Yearly-timeline .timeline{
-              width: calc(50% + 17px);
-              padding: 0 30px 30px 0;
-              float: left; 
-              position: relative;
-          }
-          .Yearly-timeline .timeline:before,
-          .Yearly-timeline .timeline:after{
-              content: '';
-              height: 60px;
-              width: 2px;
-              border-left: 2px solid #70d6ff;
-              transform: rotate(-45deg);
-              position: absolute;
-              right: 30px;
-              bottom: 0;
-          }
-          .Yearly-timeline .timeline:after{
-              background-color: #fff;
-              height: 20px;
-              width: 20px;
-              border: 6px solid #70d6ff;
-              border-radius: 50%;
-              right: 0;
-          }   
-          .Yearly-timeline .timeline-content{
-              color: #555;
-              background: #70d6ff;
-              text-align: center;
-              min-height: 170px;
-              padding: 30px 35px 35px;
-              border-radius: 15px 15px 0 15px;
-              display: block;
-              position: relative;
-              z-index: 1;
-          }
-          .Yearly-timeline .timeline-content:before{
-              content: '';
-              background-color: #fff;
-              position: absolute;
-              left: 17px;
-              right: 17px;
-              top: 17px;
-              bottom: 17px;
-              z-index: -1;
-          }
-          .Yearly-timeline .timeline-content:hover{ text-decoration: none; }
-          .Yearly-timeline .timeline-icon{
-              color: #777;
-              font-size: 35px;
-          }
-          .Yearly-timeline .title{
-              font-size: 22px;
-              font-weight: 700;
-              letter-spacing: 2px;
-              text-transform: uppercase;
-              margin: 0 0 8px;
-          }
-          .Yearly-timeline .description{
-              color: #777;
-              font-size: 13px;
-              font-weight: 400;
-              letter-spacing: 0.5px;
-              line-height: 18px;
-              margin: 0;
-          }
-          .Yearly-timeline .timeline:nth-child(even){
-              padding: 0 0 30px 30px;
-              float: right;
-          }
-          .Yearly-timeline .timeline:nth-child(even):before{
-              transform: rotate(45deg);
-              right: auto;
-              left: 30px;
-          }
-          .Yearly-timeline .timeline:nth-child(even):after{
-              right: auto;
-              left: 0;
-          }
-          .Yearly-timeline .timeline:nth-child(even) .timeline-content{ border-radius: 15px 15px 15px 0; }
-          .Yearly-timeline .timeline:nth-child(4n+2):before,
-          .Yearly-timeline .timeline:nth-child(4n+2):after{
-              border-color: #ff70a6;
-          }
-          .Yearly-timeline .timeline:nth-child(4n+2) .timeline-content{
-              background: #ff70a6;
-          }
-          .Yearly-timeline .timeline:nth-child(4n+3):before,
-          .Yearly-timeline .timeline:nth-child(4n+3):after{
-              border-color: #ff9770;
-          }
-          .Yearly-timeline .timeline:nth-child(4n+3) .timeline-content{
-              background: #ff9770;
-          }
-          .Yearly-timeline .timeline:nth-child(4n+4):before,
-          .Yearly-timeline .timeline:nth-child(4n+4):after{
-              border-color: #ffd670;
-          }
-          .Yearly-timeline .timeline:nth-child(4n+4) .timeline-content{
-              background:#ffd670;
-          }
-          @media screen and (max-width:767px){
-              .Yearly-timeline .timeline{
-                  width: 100%;
-                  padding: 30px 0 0 30px;
-                  margin: 0 0 20px;
-              }   
-              .Yearly-timeline .timeline:before,
-              .Yearly-timeline .timeline:nth-child(even):before{
-                  transform: rotate(-45deg);
-                  bottom: auto;
-                  top: 0;
-                  right: auto;
-                  left: 30px;
-              }
-              .Yearly-timeline .timeline:after,
-              .Yearly-timeline .timeline:nth-child(even):after{
-                  bottom: auto;
-                  top: 0;
-                  right: auto;
-                  left: 0;
-              }
-              .Yearly-timeline .timeline-content,
-              .Yearly-timeline .timeline:nth-child(even) .timeline-content{
-                  border-radius: 0 15px 15px 15px;
-              }
-          }
+.special {
+    color: rgb(111, 12, 233);
+    font-weight: bold;
+}
 
 
-
-
+@media (max-width: 600px){
+    .image_box_layout{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .image-border{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .image-shape2{
+        width: 120px;
+        height: 120px;
+    }
+    .align_header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

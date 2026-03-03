@@ -1,0 +1,5 @@
+https://www.w3schools.com/cssref/css3_pr_transform.php : allowed me to rotate the photos when hovering over them
+
+https://alvarotrigo.com/blog/html-css-timelines/ : allowed me to make the timeline, took code directly from the site
+
+https://www.w3schools.com/cssref/pr_class_display.php : helped me understand how to use the display: flex;
